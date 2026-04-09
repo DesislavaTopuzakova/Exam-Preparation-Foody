@@ -11,7 +11,7 @@ namespace Foody.Tests.DTOs
     {
         [JsonPropertyName("msg")]
         public string Msg { get; set; }
-            
+        
         [JsonPropertyName("foodId")]
         public string FoodId { get; set; }
     }

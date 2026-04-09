@@ -1,7 +1,7 @@
 name: Solution-Task-2-Push
 on:
-  push: null
-  pull: null
+  push:
+   branches: ["main"]
 jobs:
   build-test:
     runs-on: ubuntu-latest
